@@ -44,9 +44,9 @@ h2{
     font-weight: 900;
 }
 
-@media only screen and (max-width: 1376px) {
+@media only screen and (max-width: 768px) {
     .title-article-main{
-        font-size: 6vw;
+        font-size: 3vmax;
         font-weight: 900;
     }
     .sub-title-article{
@@ -54,6 +54,18 @@ h2{
     }
     .article-title-text>h2{
         font-size: 6vw !important;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1376px) {
+    .title-article-main{
+        font-size: 4vw;
+        font-weight: 900;
+    }
+    .sub-title-article{
+        font-size: 2.5vw;
+    }
+    .article-title-text>h2{
+        font-size: 4vw !important;
     }
 }
 
